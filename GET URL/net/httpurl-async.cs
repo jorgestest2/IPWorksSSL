@@ -1,6 +1,11 @@
 /*
- * IPWorks SSL 2022 .NET Edition - Demo Application
- * Copyright (c) 2023 /n software inc. - All rights reserved. - www.nsoftware.com
+ * IPWorks SSL 2022 .NET Edition - Sample Project
+ *
+ * This sample project demonstrates the usage of IPWorks SSL in a 
+ * simple, straightforward way. This is not intended to be a complete 
+ * application. Error handling and other checks are simplified for clarity.
+ *
+ * Copyright (c) 2023 /n software inc. www.nsoftware.com
  */
 
 using System.Collections.Generic;
@@ -66,7 +71,7 @@ class ConsoleDemo
       if (args[i].StartsWith("/"))
       {
         // Either a paired argument or a switch.
-        if (i + 1 < args.Length & !args[i + 1].StartsWith("/"))
+        if (i + 1 < args.Length && !args[i + 1].StartsWith("/"))
         {
           // Paired argument.
           dict.Add(args[i].TrimStart('/'), args[i + 1]);

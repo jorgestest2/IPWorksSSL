@@ -8,7 +8,7 @@
   "main": "httpurl.js",
   "dependencies": {
     "full-icu": "*",
-    "ipworksssl": "^22.0.8544"
+    "ipworksssl": "^22.0.8584"
   },
   "scripts": {
     "httpurl": "node httpurl.js"

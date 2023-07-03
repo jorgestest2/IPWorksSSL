@@ -8,7 +8,7 @@
   "main": "ftp.js",
   "dependencies": {
     "full-icu": "*",
-    "ipworksssl": "^22.0.8544"
+    "ipworksssl": "^22.0.8584"
   },
   "scripts": {
     "ftp": "node ftp.js"

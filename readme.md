@@ -1,14 +1,5 @@
-# Sample Projects
-
-## Requirements
-These sample projects require the latest version of IPWorks SSL.  Please download from:
-
-> Download: [https://www.nsoftware.com/ipworksssl](https://www.nsoftware.com/ipworksssl)
-
-## Sample Projects
-The sample projects demonstrate the usage of the IPWorks SSL components in a simple, 
-straightforward way.  They are not complete applications and they are not intended to be.
-Error handling and other checks are simplified for clarity.
+# IPWorksSSL Sample Projects
+The provided sample projects offer a concise yet effective demonstration of the IPWorks components, showcasing their usage in a straightforward manner. While they are not intended to be complete applications, they serve as valuable illustrations of key features. To enhance clarity, error handling and checks are simplified, allowing users to focus on the core functionality. These projects provide a solid foundation for developers to explore and customize, enabling them to construct more elaborate applications while understanding the fundamental concepts and mechanisms at play.
 
 | Sample Project | Description |
 | --- | --- |
@@ -28,6 +19,9 @@ Error handling and other checks are simplified for clarity.
 | [WebDAV Client](./WebDAV%20Client) | Allows you to copy files back and forth between a DAV server and localhost. |
 | [WebSocket Client](./WebSocket%20Client) | Shows how to use the WebSocketClient component to send and receive data. |
 | [WebSocket Server](./WebSocket%20Server) | Uses the WebSocketServer component to create a simple WebSocket server. |
+
+## Requirements
+IPWorks SSL 2022 libraries for the corresponding edition are required to run these samples.  Free download from: [https://www.nsoftware.com/ipworksssl](https://www.nsoftware.com/ipworksssl)
 
 ## Support
 If you have questions or need help, please contact support@nsoftware.com or explore other support options 
